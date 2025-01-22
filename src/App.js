@@ -1,12 +1,4 @@
 
-import './App.css';
-import Dashboard from './components/Dashboard/Dashboard'
-function App() {
-  return (
-    < >
-  <Dashboard/>
-    </>
-  );
-}
-
+import Dashboard from './Components/Dashboard/Dashboard'
+const App = () => <Dashboard />
 export default App;

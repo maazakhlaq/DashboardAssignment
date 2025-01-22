@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import PieCharts from "../chart/PieCharts";
+import PieCharts from "../Chart/PieCharts";
 import SearchFilter from "./SearchFilter";
 import Leaderboard from "./Leaderboard";
 import CommonCard from "./CommonCard";
-import BarChart from "../chart/BarCharts";
+import BarChart from "../Chart/BarCharts";
 import { FaTachometerAlt } from "react-icons/fa";
 import { MdOutlineFilterAltOff, MdOutlineFilterAlt } from "react-icons/md";
 
@@ -19,7 +19,7 @@ const Dashboard = () => {
         if (response.ok) {
           const data = await response.json();
           console.log(data);
-          
+
           const uniqueData = data.filter((value, index, self) =>
             index === self.findIndex((t) => t.title === value.title && t.year === value.year)
           );

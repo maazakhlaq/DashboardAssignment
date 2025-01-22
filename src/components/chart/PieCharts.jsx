@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Pie } from "react-chartjs-2";
 import "chart.js/auto";
-import CommonButton from "../CommonComponents/Button";
+
 import CommonRadioButton from "../CommonComponents/Button";
 
 const PieCharts = ({ data }) => {
@@ -44,7 +44,7 @@ const PieCharts = ({ data }) => {
     },
     plugins: {
       title: {
-        display: true,       
+        display: true,
         font: {
           size: 18,
           weight: "bold",
@@ -60,7 +60,7 @@ const PieCharts = ({ data }) => {
         labels: {
           usePointStyle: true,
           pointStyle: "circle",
-          padding: 25,             
+          padding: 25,
           color: "rgba(0, 0, 0, 0.87)",
           font: {
             size: 14,
@@ -72,8 +72,8 @@ const PieCharts = ({ data }) => {
     },
     maintainAspectRatio: false,
     responsive: true,
-  
-   
+
+
   };
   const languageData = {
     labels: Object.keys(languageCounts),
