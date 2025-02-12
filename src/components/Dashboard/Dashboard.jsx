@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import PieCharts from "../Chart/PieCharts";
+import PieCharts from "../chart/PieCharts";
 import SearchFilter from "./SearchFilter";
 import Leaderboard from "./Leaderboard";
 import CommonCard from "./CommonCard";
-import BarChart from "../Chart/BarCharts";
+import BarChart from "../chart/BarCharts";
 import { FaTachometerAlt } from "react-icons/fa";
 import { MdOutlineFilterAltOff, MdOutlineFilterAlt } from "react-icons/md";
 

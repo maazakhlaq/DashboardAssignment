@@ -1,4 +1,4 @@
 
-import Dashboard from './Components/Dashboard/Dashboard'
+import Dashboard from './components/Dashboard/Dashboard'
 const App = () => <Dashboard />
 export default App;
